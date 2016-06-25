@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cmy-WI-bZc"/>
+                        <viewControllerLayoutGuide type="bottom" id="MlO-GL-pZn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="angry_00.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Rqf-yO-NS1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Bj-Tn-p5C">
+                                <rect key="frame" x="67" y="86" width="186" height="155"/>
+                                <state key="normal" title="knockout">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchHeadOnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TH4-Ct-ltX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1HN-U9-Thg">
+                                <rect key="frame" x="9" y="296" width="60" height="60"/>
+                                <state key="normal" backgroundImage="eat">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="eatOnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gel-bh-R6f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ap-Qv-Th3">
+                                <rect key="frame" x="9" y="364" width="60" height="60"/>
+                                <state key="normal" image="fart" backgroundImage="eat">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fartOnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tR1-uF-mQk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gim-ll-gSj">
+                                <rect key="frame" x="9" y="228" width="60" height="60"/>
+                                <state key="normal" image="drink" backgroundImage="eat">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="drinkOnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OcV-UP-tvz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHR-eB-MAG">
+                                <rect key="frame" x="250" y="228" width="60" height="60"/>
+                                <state key="normal" image="pie" backgroundImage="eat">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pieOnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6Wg-pQ-9hZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeC-zQ-2TO">
+                                <rect key="frame" x="250" y="296" width="60" height="60"/>
+                                <state key="normal" image="scratch" backgroundImage="eat">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="scratchOnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="txC-HO-KLU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V80-T1-l35">
+                                <rect key="frame" x="250" y="364" width="60" height="60"/>
+                                <state key="normal" image="cymbal" backgroundImage="eat">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cymbalOnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sXA-6a-tYG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNf-yl-7V4">
+                                <rect key="frame" x="98" y="394" width="57" height="140"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="footLeftOnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fk8-ju-2eP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOZ-xq-kkD">
+                                <rect key="frame" x="163" y="394" width="48" height="140"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="footRightOnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cQx-y9-Wcp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mau-0i-p4p">
+                                <rect key="frame" x="118" y="302" width="93" height="54"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stomachOnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gJo-QL-umx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tomImageView" destination="Rqf-yO-NS1" id="Xxr-Je-0KK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="296"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="angry_00.jpg" width="640" height="1024"/>
+        <image name="cymbal" width="60" height="60"/>
+        <image name="drink" width="60" height="60"/>
+        <image name="eat" width="60" height="60"/>
+        <image name="fart" width="60" height="60"/>
+        <image name="pie" width="60" height="60"/>
+        <image name="scratch" width="60" height="60"/>
+    </resources>
+</document>
